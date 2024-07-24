@@ -30,6 +30,9 @@ const Navbar = () => {
             <li className="nav-link">
               <Link to="/about">About</Link>
             </li>
+            <li className="nav-link">
+              <Link to="/teams">Team</Link>
+            </li>
             <li className="nav-link nav-dropdown">
               <Link to="/research">Research</Link>
               <div className="nav-dropdown-content">
@@ -55,6 +58,7 @@ const Navbar = () => {
         <Link to="/" onClick={toggleSidebar}>Home</Link>
         <Link to="/services" onClick={toggleSidebar}>Services</Link>
         <Link to="/about" onClick={toggleSidebar}>About</Link>
+        <Link to="/teams" onClick={toggleSidebar}>Team</Link>
         <Link to="/research" onClick={toggleSidebar}>Research</Link>
         <Link to="/projects" onClick={toggleSidebar}>Projects</Link>
         <Link to="/publications" onClick={toggleSidebar}>Publications</Link>

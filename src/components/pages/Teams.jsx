@@ -4,6 +4,7 @@ import "./Teams.css";
 import Teamsdata from "../../data/Teamsdata";
 import abhishek_sir_pic from "../../assets/Abhishek sir pic.jpg";
 import Cardslider from "../Cardslider";
+import Footer from "../Footer";
 const Teams = () => {
   return (
     <div className="teams-main-container">
@@ -179,15 +180,27 @@ const Teams = () => {
               <div className="fm-img2"></div>
               <h2>Dr. Priyanka Narad</h2>
               <p>
-                Co-founder and former Co-PI<br></br> (Sept 2020 - Oct 2023)<br></br> Presently at:<br></br>
-                Scientist-C at Division of Biomedical Informatics (BMI),<br></br> Indian
-                Council of Medical Research (ICMR-HQS),<br></br> Ansari Nagar, New Delhi,
-                India.
+                Co-founder and former Co-PI<br></br> (Sept 2020 - Oct 2023)
+                <br></br> Presently at:<br></br>
+                Scientist-C at Division of Biomedical Informatics (BMI),
+                <br></br> Indian Council of Medical Research (ICMR-HQS),
+                <br></br> Ansari Nagar, New Delhi, India.
               </p>
             </div>
           </div>
         </div>
+        <h2 className="teams-ch-text">Do you have a project?</h2>
+        <div className="teams-ch-link">
+          
+          <a className="team-link-contact" href="./#/contact">
+            LET'S DISCUSS
+          </a>
+          <a className="team-link-research" href="./#/research">
+           OUR RESEARCH
+          </a>
+        </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

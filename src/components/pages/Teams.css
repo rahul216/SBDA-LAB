@@ -21,12 +21,13 @@
   padding: 60px 20px 0px 20px;
 }
 .team-content-container {
-  background-color: #01000b;
+  
+  background-color: #040217;
   color: white;
   padding: 20px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 10px;
 }
 .team-leader h1 {
   text-align: center;
@@ -64,17 +65,19 @@
 }
 .tl-twitter {
   background-image: url("../../assets/x-logo.png");
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   background-repeat: no-repeat;
   background-size: contain;
 }
 .tl-linkedin {
   background-image: url("../../assets/ln logo.png");
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   background-repeat: no-repeat;
   background-size: contain;
+  
+  
 }
 .bullet-li {
   list-style-type: disc;
@@ -102,19 +105,20 @@
 .team-memb-slider {
   margin: 2rem;
 }
-.fm-head-no, .fm-heading{
+.fm-head-no,
+.fm-heading {
   text-align: center;
   font-size: 2.5rem;
 }
-.fm-head-no{
+.fm-head-no {
   font-size: 6rem;
   color: #01000b;
   -webkit-text-stroke: 1px rgb(156, 155, 155);
 }
-.fm-heading{
+.fm-heading {
   margin-bottom: 1.2rem;
 }
-.fm-section{
+.fm-section {
   display: flex;
   /* gap: 30rem; */
   justify-content: space-evenly;
@@ -130,8 +134,32 @@
 .fm-img2 {
   background-image: url("../../assets/Priyanka mam.jpeg");
   width: 400px;
-  height:400px;
+  height: 400px;
 }
-.fm1, .fm2 {
+.fm1,
+.fm2 {
   text-align: center;
+}
+
+.teams-ch-link {
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.team-link-contact,
+.team-link-research {
+  font-size: 1.2rem;
+  border: 2px solid white;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none !important;
+  color: white;
+}
+.teams-ch-text {
+  text-align: center !important;
+  font-size: 3.5rem;
+  margin-top: 1.2rem;
 }
