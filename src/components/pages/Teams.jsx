@@ -14,7 +14,7 @@ const Teams = () => {
         <p>SYSTEMS BIOLOGY AND DATA ANALYTICS LAB</p>
         <h2 className="quote quote-part1">Alone we can do so little;</h2>
         <h2 className="quote quote-part2">Together we can do so much.</h2>
-        <h4 className="quote author">- Hellen Keller</h4>
+        <h4 className="quote author">- Helen Keller</h4>
         <div className="arrow-container">
           <div className="arrow"></div>
           <div className="arrow"></div>

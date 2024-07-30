@@ -53,9 +53,9 @@ const Services = () => {
       <div className="services-container">
         <p>WHAT WE DO</p>
         <p>SYSTEMS BIOLOGY AND DATA ANALYTICS LAB</p>
-        <h2 className="quote quote-part1">If you torture the data long enough,</h2>
-        <h2 className="quote quote-part2">it will confess.</h2>
-        <h4 className="quote author">- Ronald Coase</h4>
+        <h2 className="quote quote-part1">In every set of data,</h2>
+        <h2 className="quote quote-part2">there lies a story waiting to be told.</h2>
+        <h4 className="quote author">- SBDA</h4>
         <div className="arrow-container">
           <div className="arrow"></div>
           <div className="arrow"></div>

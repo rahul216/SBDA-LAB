@@ -4,6 +4,8 @@ import nextgenlifeLogo from "../../assets/nextgenlife logo.jpg";
 import sghLogo from "../../assets/sgh logo.png";
 import manipalLogo from "../../assets/manipal logo.png";
 import nbpgrLogo from "../../assets/NBPGR logo.png";
+import nimhansLogo from "../../assets/Nimhans.png";
+import jnuLogo from "../../assets/JNU.jpg";
 
 const Data = [
   {
@@ -25,6 +27,14 @@ const Data = [
   {
     image: nbpgrLogo,
     text: "National Bureau of Plant Genetic Resources"
+  },
+  {
+    image: nimhansLogo,
+    text: "National Institute of Mental Health and Neuro Sciences"
+  },
+  {
+    image: jnuLogo,
+    text: "Jawaharlal Nehru University"
   }
 ];
 

@@ -44,7 +44,7 @@ const About = () => {
         <p>SYSTEMS BIOLOGY AND DATA ANALYTICS LAB</p>
         <h2 className="quote quote-part1">There are living systems,</h2>
         <h2 className="quote quote-part2">there is no 'living matter'.</h2>
-        <h4 className="quote author">- Jacques Manod</h4>
+        <h4 className="quote author">- Jacques Monod</h4>
         <div className="arrow-container">
           <div className="arrow"></div>
           <div className="arrow"></div>
