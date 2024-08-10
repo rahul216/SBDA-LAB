@@ -7,7 +7,7 @@ body {
 }
 
 .main-ab-container {
-  width: 100%;
+  width: 100vw;
   background: linear-gradient(
       to bottom,
       rgba(4, 2, 23, 0) 0%,
@@ -16,6 +16,7 @@ body {
     url("../../assets/about-img.jpg");
   background-size: fill;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 .about-container {

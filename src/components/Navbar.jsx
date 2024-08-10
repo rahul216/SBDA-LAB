@@ -14,8 +14,10 @@ const Navbar = () => {
     <>
       <div className="nav">
         <div className="nav-logo">
+          <img src={logo4} alt="SBDA Logo" className="nav-logo-img" />
+        </div>
+        <div className="nav-logo-text">
           <Link to="/" className="nav-logo-link">
-            <img src={logo4} alt="SBDA Logo" className="nav-logo-img" />
             Systems Biology & Data Analytics Lab
           </Link>
         </div>
@@ -52,7 +54,7 @@ const Navbar = () => {
       </div>
 
       <div className={`sidebar ${sidebarOpen ? "open" : ""}`}>
-        <a href="#" className="closebtn" onClick={toggleSidebar}>
+        <a className="closebtn" onClick={toggleSidebar}>
           &times;
         </a>
         <Link to="/" onClick={toggleSidebar}>Home</Link>
