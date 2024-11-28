@@ -4,12 +4,13 @@ import Alakto from "../assets/Alakto.png";
 import Payal from "../assets/Payal.jpg";
 import Akshay from "../assets/Akshay.jpeg";
 import Sudeepti from "../assets/Sudeepti.jpg";
+import Harshita from "../assets/Harshita pandey.jpg";
 
 const Teamsdata = [
   {
     image: Ankit,
     text: "Ankit Saroha",
-    paragraph: `PhD Research Scholar(January 2019 onwards)`,
+    paragraph: `PhD Research Scholar(January 2019 to November 2024)`,
     heading: "Research Interests: ",
     paragraph2: `
     Exploring the genetic and genomic resources associated with early flowering and maturity in plants
@@ -43,7 +44,7 @@ const Teamsdata = [
     paragraph: `PhD Research Scholar
 (January 2021 onwards)`,
     heading: "Research Interests: ",
-    paragraph2:`Understanding the cellular and molecular working of a biological system
+    paragraph2: `Understanding the cellular and molecular working of a biological system
      and using that knowledge to build predictive models and algorithms.`,
   },
   {
@@ -59,10 +60,21 @@ const Teamsdata = [
     image: Sudeepti,
     text: "Sudeepti Kulshrestha",
     paragraph: `PhD Research Scholar
-(July 2020 onwards)`,
+(July 2020 to November 2024)`,
     heading: "Research Interests: ",
     paragraph2: `Thorough analysis of 16s rRNA sequences from microbiome research to better understand the effects of diverse microbes, genes, and pathways on human diseases.
      Functional Divergence Research, Molecular Docking, MM-GBSA Analysis, Molecular Dynamics, Network Analysis, and Machine Learning.`,
+  },
+  {
+    image: Harshita,
+    text: "Harshita Pandey",
+    paragraph: `Project Associate I (Jan 2021 - Oct 2022)`,
+
+    heading: "Research Interests: ",
+    paragraph2: `My research interest lies in leveraging machine learning to enhance
+     the predictability of In Vitro Fertilization (IVF) outcomes. By integrating clinical, 
+     demographic, and biological data, my goal is to develop robust predictive models that
+      assist in optimizing personalized treatment plans for patients.`,
   },
 ];
 

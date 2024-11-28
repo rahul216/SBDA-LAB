@@ -54,9 +54,14 @@ const Cardslider = ({ slideWidth, slideHeight, Data, slides, speed }) => {
           />
           <div className="card-text">
             <h3 className="card-heading">{item.text}</h3>
-            {item.paragraph && <p className="card-paragraph">{item.paragraph}</p>}
+            {item.paragraph && (
+              <p className="card-paragraph">{item.paragraph}</p>
+            )}
+
             <h3>{item.heading} </h3>
-            {item.paragraph2 && <p className="card-paragraph2">{item.paragraph2}</p>}
+            {item.paragraph2 && (
+              <p className="card-paragraph2">{item.paragraph2}</p>
+            )}
           </div>
         </div>
       ))}

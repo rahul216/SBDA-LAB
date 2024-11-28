@@ -3,6 +3,7 @@ import Navbar from "../Navbar";
 import "./Teams.css";
 import Teamsdata from "../../data/Teamsdata";
 import abhishek_sir_pic from "../../assets/Abhishek sir pic.jpg";
+import priyanka_mam_pic from "../../assets/priyanka mam pic.jpg";
 import Cardslider from "../Cardslider";
 import Footer from "../Footer";
 const Teams = () => {
@@ -24,7 +25,7 @@ const Teams = () => {
       <div className="team-content-container">
         <div className="team-leader">
           <h1 className="tl-head-no">01</h1>
-          <h1 className="tl-heading">Group Leader And Investigator.</h1>
+          <h1 className="tl-heading">Group Leader And Investigator</h1>
           <div className="tl-section">
             <div className="tl-image">
               <img
@@ -150,8 +151,66 @@ const Teams = () => {
             </div>
           </div>
         </div>
+
+        {/* the below section is for priyanka mam.. containers classname is same cause no change in css is required. */}
+      
+        <div className="team-leader">
+          <h1 className="tl-head-no">02</h1>
+          <h1 className="tl-heading">Founder and Former PI</h1>
+          <div className="tl-section">
+            <div className="tl-image">
+              <img
+                className="founder-img"
+                src={priyanka_mam_pic}
+                alt="Abhishek Sir"
+              />
+              <h2 className="tl-name">Dr Priyanka Narad</h2>
+              <p className="tl-desg">Founder and Former PI</p>
+              <div className="tl-sm-profile">
+                <a href="https://x.com/priyankanarad">
+                  <div className="tl-twitter"></div>
+                </a>
+                <a href="https://www.linkedin.com/in/drabhisheksengupta83/">
+                  <div className="tl-linkedin"></div>
+                </a>
+              </div>
+            </div>
+            <div className="tl-about">
+              <p style ={{ textAlign:"justify" } }>
+              I am an experienced bioinformatics professional with PhD in Biotechnology and a specialization in Network Modelling and Analysis. 
+              With proficiency in bioinformatics tools, techniques, and R & Python programming, I have gained a diversified portfolio as an Assistant Professor, Academic Administrator,
+               and founding member of SBDA research lab
+               in my previous professional experience at Amity University Uttar Pradesh.
+              </p>
+              
+              <p style={{ textAlign: "justify", marginTop: "1.5rem" }}>
+              Currently, I am working as a scientist and researcher in the Bioinformatics Division,
+               Indian Council of Medical Research (ICMR), Department of Health Research (DHR), 
+               Ministry of Health & Family Welfare (MoH&FW), New Delhi. 
+               Here, I am handling the research projects undertaken by the division 
+               and building policies and guidelines in bioinformatics and artificial intelligence. 
+              </p>
+              <p style={{ textAlign: "justify", marginTop: "1.5rem" }}>
+              I have more than 50 published research and review articles in high-impact factor
+               peer-reviewed national/international journals like Scientific Reports, Journal
+                of Biomolecular Structure and Dynamics, and Human Gene to name a few. I have 
+                3 copyrights registered and 1 technology transferred to industry.
+              </p>
+              <p style={{ textAlign: "justify", marginTop: "1.5rem" }}>
+              As an individual, I am upbeat, enthusiastic, and have a problem-solving attitude. 
+              My exceptional communication skills, commitment, and ownership of assigned work 
+              allow me to work efficiently in a fast-paced environment.
+              </p>
+              <p style={{ textAlign: "justify", marginTop: "1.5rem" }}>
+              Feel free to connect with me to learn more about my work interests and mutual collaborations.
+              </p>
+
+              
+            </div>
+          </div>
+        </div>
         <div className="team-members">
-          <h1 className="tm-head-no">02</h1>
+          <h1 className="tm-head-no">03</h1>
           <h1 className="tm-heading">Team Members</h1>
           <div className="team-memb-slider">
             <Cardslider
@@ -163,32 +222,7 @@ const Teams = () => {
             ></Cardslider>
           </div>
         </div>
-        <div className="former-members">
-          <h1 className="fm-head-no">03</h1>
-          <h1 className="fm-heading">Former Team Members</h1>
-          <div className="fm-section">
-            <div className="fm1">
-              <div className="fm-img1"></div>
-              <h2>Harshita Pandey</h2>
-              <p>
-                Project Associate I<br></br> (Jan 2021 - Oct 2022) Presently at:{" "}
-                <br></br>Senior Engineer at LG Soft India (Global Research
-                Centre)
-              </p>
-            </div>
-            <div className="fm2">
-              <div className="fm-img2"></div>
-              <h2>Dr. Priyanka Narad</h2>
-              <p>
-                Co-founder and former Co-PI<br></br> (Sept 2020 - Oct 2023)
-                <br></br> Presently at:<br></br>
-                Scientist-C at Division of Biomedical Informatics (BMI),
-                <br></br> Indian Council of Medical Research (ICMR-HQS),
-                <br></br> Ansari Nagar, New Delhi, India.
-              </p>
-            </div>
-          </div>
-        </div>
+        
         <h2 className="teams-ch-text">Do you have a project?</h2>
         <div className="teams-ch-link">
           

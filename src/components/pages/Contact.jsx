@@ -36,7 +36,7 @@ const Contact = () => {
               <p>CONTACT</p>
               <h2 className="second-head">Shall we talk?</h2>
               <p>
-                Email: sbdaresearch@gmail.com <br />Phone: +91-8800662904 (Dr.
+               Phone: +91-8800662904 (Dr.
                 Abhishek Sengupta)
               </p>
             </div>
@@ -47,15 +47,14 @@ const Contact = () => {
               <p>FOR CONSULTATIONS</p>
               <h2 className="second-head">Drop a Mail on</h2>
               <p>
-                Email: sbdaresearch@gmail.com<br /> Phone: +91-8800662904 (Dr.
-                Abhishek Sengupta)
+                Email: sbdaresearch@gmail.com
               </p>
             </div>
             <div className="contact-loc">
               <h2 className="first-head">04</h2>
               <p>FOR TRAINING OPPORTUNITIES</p>
               <h2 className="second-head">Drop a mail with your CV on</h2>
-              <p>Email: sbdaresearch@gmail.com</p>
+              <a href="mailto:sbdaresearch@gmail.com">sbdaresearch@gmail.com</a>
             </div>
           </div>
         </div>
