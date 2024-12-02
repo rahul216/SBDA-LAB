@@ -1,4 +1,4 @@
-
+''
 import icmrLogo from "../../assets/icmr logo.jpg";
 import nextgenlifeLogo from "../../assets/nextgenlife logo.jpg";
 import sghLogo from "../../assets/sgh logo.png";
@@ -6,6 +6,7 @@ import manipalLogo from "../../assets/manipal logo.png";
 import nbpgrLogo from "../../assets/NBPGR logo.png";
 import nimhansLogo from "../../assets/Nimhans.png";
 import jnuLogo from "../../assets/JNU.jpg";
+import alltech from "../../assets/alltech biotech.jpg"
 
 const Data = [
   {
@@ -35,6 +36,10 @@ const Data = [
   {
     image: jnuLogo,
     text: "Jawaharlal Nehru University"
+  },
+  {
+    image: alltech,
+    text: "Alltech Biotech"
   }
 ];
 

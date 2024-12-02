@@ -170,7 +170,7 @@ const Teams = () => {
                 <a href="https://x.com/priyankanarad">
                   <div className="tl-twitter"></div>
                 </a>
-                <a href="https://www.linkedin.com/in/drabhisheksengupta83/">
+                <a href="https://www.linkedin.com/in/priyanka-narad-phd-b35320b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                   <div className="tl-linkedin"></div>
                 </a>
               </div>

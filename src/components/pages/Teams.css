@@ -98,8 +98,8 @@
   text-align: justify;
 }
 .founder-img {
-  width: 40vw;
-  height: 87vh;
+  width: 30vw;
+  height: 80vh;
 }
 .tm-head-no {
   font-size: 6rem;
@@ -273,7 +273,7 @@
   }
 
   .founder-img{
-    width: 60vw;
+    width: 70vw;
     height: 45vh;
   }
 }
@@ -292,7 +292,7 @@
 @media (width: 1024px) and (min-height:635px){
   .founder-img {
     width: 35vw;
-    height: 50vh;
+    height: 70vh;
 }
 
 }
