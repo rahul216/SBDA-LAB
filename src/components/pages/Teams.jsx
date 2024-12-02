@@ -158,7 +158,7 @@ const Teams = () => {
           <h1 className="tl-head-no">02</h1>
           <h1 className="tl-heading">Founder and Former PI</h1>
           <div className="tl-section">
-            <div className="tl-image">
+            <div className="founder-image">
               <img
                 className="founder-img"
                 src={priyanka_mam_pic}

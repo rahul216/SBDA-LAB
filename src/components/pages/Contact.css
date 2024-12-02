@@ -71,10 +71,7 @@
     text-decoration: none;
   }
 
-  .mail-link {
-    /* font-size: 1.8rem; */
-    
-  }
+  
   
   .mail-link:hover{
     color: orangered;

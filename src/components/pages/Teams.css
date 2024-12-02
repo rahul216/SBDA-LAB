@@ -271,4 +271,28 @@
   .tl-about p {
     text-align: left !important;
   }
+
+  .founder-img{
+    width: 60vw;
+    height: 45vh;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .founder-img{
+    width: 45vw;
+    height: 45vh;
+  }
+
+  .team-container {
+     min-height: 25vh; 
+    
+}
+}
+
+@media (width: 1024px) and (min-height:635px){
+  .founder-img {
+    width: 35vw;
+    height: 50vh;
+}
+
 }
