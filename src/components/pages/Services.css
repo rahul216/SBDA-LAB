@@ -17,12 +17,12 @@ body {
 
 /* Services container */
 .services-container {
-  min-height: 70vh;
+  min-height: 90vh;
   color: ghostwhite;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
   margin: 0px 0px 0px 0px;
 }
 

@@ -25,16 +25,16 @@ const Teams = () => {
       <div className="team-content-container">
         <div className="team-leader">
           <h1 className="tl-head-no">01</h1>
-          <h1 className="tl-heading">Group Leader And Investigator</h1>
+          <h1 className="tl-heading">Founder and Principle Investigator</h1>
           <div className="tl-section">
-            <div className="tl-image">
+            <div className="tl-image"> 
               <img
                 className="tl-img1"
                 src={abhishek_sir_pic}
                 alt="Abhishek Sir"
               />
               <h2 className="tl-name">Dr Abhishek Sengupta</h2>
-              <p className="tl-desg">Group Leader and Investigator</p>
+              <p className="tl-desg">Founder and Principle Investigator</p>
               <div className="tl-sm-profile">
                 <a href="https://twitter.com/Sengupta_PhD">
                   <div className="tl-twitter"></div>
@@ -68,7 +68,7 @@ const Teams = () => {
               </li>
               <li className="bullet-li">Mental Health and Well Being</li>
               <li className="bullet-li">
-                Vitiligo Pathogenesis and Therapeutics.
+                Vitiligo Pathogenesis and Therapeutics
               </li>
               <p style={{ textAlign: "justify", margin: "1.5rem" }}>
                 My research involves biological network construction and
@@ -104,24 +104,24 @@ const Teams = () => {
                 </li>
                 <li className="numerical-li">
                   Biological network inference, community and topology analysis
-                  and visualisation.
+                  and visualisation
                 </li>
                 <li className="numerical-li">
-                  Identification of vital biological functions and pathways.
+                  Identification of vital biological functions and pathways
                 </li>
                 <li className="numerical-li">
                   Identification of potential biomarkers and targetable
                   genes/proteins/metabolites through modelling and biological
-                  network analysis.
+                  network analysis
                 </li>
                 <li className="numerical-li">
                   Application of key machine learning methods for multi-omics
-                  analysis.
+                  analysis
                 </li>
                 <li className="numerical-li">
                   Condition-specific and personalized modelling through
                   Genome-scale Metabolic models based on the/ integration of
-                  transcriptomic, proteomic and metabolomic data.
+                  transcriptomic, proteomic and metabolomic data
                 </li>
                 <li className="numerical-li">
                   Interactive and static web implementation
@@ -156,7 +156,8 @@ const Teams = () => {
       
         <div className="team-leader">
           <h1 className="tl-head-no">02</h1>
-          <h1 className="tl-heading">Founder and Former PI</h1>
+          <h1 className="tl-heading">Co-Founder and Former Principle Investigator
+          </h1>
           <div className="tl-section">
             <div className="founder-image">
               <img
@@ -165,7 +166,8 @@ const Teams = () => {
                 alt="Abhishek Sir"
               />
               <h2 className="tl-name">Dr Priyanka Narad</h2>
-              <p className="tl-desg">Founder and Former PI</p>
+              <p className="tl-desg">Co-Founder and Former Principle Investigator
+              </p>
               <div className="tl-sm-profile">
                 <a href="https://x.com/priyankanarad">
                   <div className="tl-twitter"></div>
